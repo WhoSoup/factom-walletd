@@ -16,7 +16,6 @@ debug
 peers.json
 *.csv
 *.gz
-*.iml
 
 # Folders
 _obj
@@ -24,6 +23,7 @@ _test
 bin
 pkg
 .vagrant
+vendor/
 
 # Architecture specific extensions/prefixes
 *.[568vq]
