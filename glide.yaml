@@ -29,7 +29,7 @@ import:
   - wallet
   - wallet/wsapi
 - package: github.com/FactomProject/factomd
-  version: m2-friday
+  version: m2
   subpackages:
   - util
 - package: github.com/FactomProject/go-bip32
