@@ -1,5 +1,10 @@
+<<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
 hash: 300b15820ffc47f9244b9da65fadca522f7fc9e9b1bf8be77288fd7a45929975
 updated: 2016-12-22T16:59:52.827389884-06:00
+=======
+hash: 26d1b1a45d1572e88ac0cd61ae0378076b889610a050b4efcbdf641153981fc0
+updated: 2016-12-21T11:09:49.972796304-08:00
+>>>>>>> glide config for SOF-474
 imports:
 - name: github.com/btcsuitereleases/btcd
   version: e005ff2cdaac3b3a0b60c8d03978221b784ad50a
@@ -50,7 +55,11 @@ imports:
   - state/stateinit
   - wallet
 - name: github.com/FactomProject/factom
+<<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: f641223f2d5e74d1bfaa6473dd920564646bbbc1
+=======
+  version: b5a57f6c5414764f2ac6438807ad2a70ef701f81
+>>>>>>> glide config for SOF-474
   subpackages:
   - wallet
   - wallet/wsapi
@@ -59,7 +68,11 @@ imports:
   subpackages:
   - controlpanel
 - name: github.com/FactomProject/factomd
+<<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: 9acb545398c7507304f83c9229077aaea890f70a
+=======
+  version: e45e7c2abf5acbdf0cf1c38ad68871339d61805a
+>>>>>>> glide config for SOF-474
   subpackages:
   - anchor
   - common/adminBlock
@@ -115,7 +128,11 @@ imports:
 - name: github.com/FactomProject/web
   version: 7daee1bf727fc2cd9142b9a73a797f98b3180756
 - name: golang.org/x/crypto
+<<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
+=======
+  version: f5719d24587163700c5f7fa625ef3e05d9b372e7
+>>>>>>> glide config for SOF-474
   subpackages:
   - pbkdf2
   - ripemd160
