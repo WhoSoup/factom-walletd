@@ -8,8 +8,12 @@ updated: 2016-12-21T11:09:49.972796304-08:00
 >>>>>>> glide config for SOF-474
 =======
 hash: 300b15820ffc47f9244b9da65fadca522f7fc9e9b1bf8be77288fd7a45929975
+<<<<<<< cd7d63007cc69990ef5cea02f6d3f0e6250792f7
 updated: 2016-12-22T04:58:05.911240089-08:00
 >>>>>>> check if glide is correct
+=======
+updated: 2016-12-22T08:57:33.435900508-08:00
+>>>>>>> glide update
 imports:
 - name: github.com/btcsuitereleases/btcd
   version: e005ff2cdaac3b3a0b60c8d03978221b784ad50a
@@ -77,6 +81,7 @@ imports:
   subpackages:
   - controlpanel
 - name: github.com/FactomProject/factomd
+<<<<<<< cd7d63007cc69990ef5cea02f6d3f0e6250792f7
 <<<<<<< b5b0a1bc1d1cc0f01194755f0f9d5501c0d9ccc1
 <<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: 9acb545398c7507304f83c9229077aaea890f70a
@@ -86,6 +91,9 @@ imports:
 =======
   version: 8ea709e027d4dbb52ae0cd7e3255ecd795ac9d81
 >>>>>>> check if glide is correct
+=======
+  version: 66e88f894b70572ef91a02afa75efe5f1ea75c78
+>>>>>>> glide update
   subpackages:
   - anchor
   - common/adminBlock
