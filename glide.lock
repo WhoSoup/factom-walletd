@@ -1,6 +1,7 @@
 <<<<<<< b5b0a1bc1d1cc0f01194755f0f9d5501c0d9ccc1
 <<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
 hash: 300b15820ffc47f9244b9da65fadca522f7fc9e9b1bf8be77288fd7a45929975
+<<<<<<< HEAD
 updated: 2016-12-22T16:59:52.827389884-06:00
 =======
 hash: 26d1b1a45d1572e88ac0cd61ae0378076b889610a050b4efcbdf641153981fc0
@@ -14,6 +15,9 @@ updated: 2016-12-22T04:58:05.911240089-08:00
 =======
 updated: 2016-12-22T08:57:33.435900508-08:00
 >>>>>>> glide update
+=======
+updated: 2016-12-22T08:57:33.435900508-08:00
+>>>>>>> 007aeb13745ff647565d799f246580a082d00c4d
 imports:
 - name: github.com/btcsuitereleases/btcd
   version: e005ff2cdaac3b3a0b60c8d03978221b784ad50a
@@ -64,6 +68,7 @@ imports:
   - state/stateinit
   - wallet
 - name: github.com/FactomProject/factom
+<<<<<<< HEAD
 <<<<<<< b5b0a1bc1d1cc0f01194755f0f9d5501c0d9ccc1
 <<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: f641223f2d5e74d1bfaa6473dd920564646bbbc1
@@ -73,6 +78,9 @@ imports:
 =======
   version: 77e5c961ae757c663ed3de50b8d53cea66b41823
 >>>>>>> check if glide is correct
+=======
+  version: 77e5c961ae757c663ed3de50b8d53cea66b41823
+>>>>>>> 007aeb13745ff647565d799f246580a082d00c4d
   subpackages:
   - wallet
   - wallet/wsapi
@@ -81,6 +89,7 @@ imports:
   subpackages:
   - controlpanel
 - name: github.com/FactomProject/factomd
+<<<<<<< HEAD
 <<<<<<< cd7d63007cc69990ef5cea02f6d3f0e6250792f7
 <<<<<<< b5b0a1bc1d1cc0f01194755f0f9d5501c0d9ccc1
 <<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
@@ -94,6 +103,9 @@ imports:
 =======
   version: 66e88f894b70572ef91a02afa75efe5f1ea75c78
 >>>>>>> glide update
+=======
+  version: 66e88f894b70572ef91a02afa75efe5f1ea75c78
+>>>>>>> 007aeb13745ff647565d799f246580a082d00c4d
   subpackages:
   - anchor
   - common/adminBlock
@@ -149,6 +161,7 @@ imports:
 - name: github.com/FactomProject/web
   version: 7daee1bf727fc2cd9142b9a73a797f98b3180756
 - name: golang.org/x/crypto
+<<<<<<< HEAD
 <<<<<<< b5b0a1bc1d1cc0f01194755f0f9d5501c0d9ccc1
 <<<<<<< 8d94b321b13c140be2d29347a025d73f3fc21689
   version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
@@ -158,6 +171,9 @@ imports:
 =======
   version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
 >>>>>>> check if glide is correct
+=======
+  version: f6b343c37ca80bfa8ea539da67a0b621f84fab1d
+>>>>>>> 007aeb13745ff647565d799f246580a082d00c4d
   subpackages:
   - pbkdf2
   - ripemd160
