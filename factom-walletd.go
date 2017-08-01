@@ -215,6 +215,8 @@ func main() {
 		}
 	}()
 
+	go StartProfiler()
+
 	// start the wsapi server
 	wsapi.Start(fctWallet, fmt.Sprintf(":%d", port), RPCConfig)
 }
