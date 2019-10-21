@@ -63,7 +63,7 @@ imports:
   subpackages:
   - controlpanel
 - name: github.com/FactomProject/factomd
-  version: 5f787fc9bf067dac6df2c36803e03e2a1a3b3186
+  version: 9152bdea1b7f3711a6c87b91f0e3312e859ff5be
   subpackages:
   - activations
   - anchor
