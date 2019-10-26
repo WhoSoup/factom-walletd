@@ -1,3 +1,4 @@
+/*
 vendorver=./vendor/github.com/FactomProject/factom/wallet/VERSION
 godirver=$GOPATH/src/github.com/FactomProject/factom/wallet/VERSION
 
@@ -6,4 +7,7 @@ if [ -f $vendorver ]; then
 else
     go install -ldflags "-X github.com/FactomProject/factom/wallet.WalletVersion=`cat $godirver`" -v
 fi
+*/
 
+# create a static shared obj
+go build -v -o factom-walletd.so -buildmode=c-shared factom-walletd.go

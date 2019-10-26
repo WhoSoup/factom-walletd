@@ -1,9 +1,13 @@
 // Copyright 2017 Factom Foundation
 // Use of this source code is governed by the MIT
 // license that can be found in the LICENSE file.
+// Copyright 2017 Factom Foundation
+// Use of this source code is governed by the MIT
+// license that can be found in the LICENSE file.
 
 package main
 
+import "C"
 import (
 	"flag"
 	"fmt"
@@ -20,6 +24,19 @@ import (
 )
 
 func main() {
+	Serve()
+}
+
+// shutdown channel
+var c = make(chan os.Signal, 1)
+
+//export Shutdown
+func Shutdown() {
+	c <- syscall.SIGINT
+}
+
+//export Serve
+func Serve() {
 	// configure the server
 	var (
 		pflag = flag.Int("p", 8089, "set the port to host the wsapi")
